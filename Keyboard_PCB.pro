@@ -1,11 +1,6 @@
-update=Di 01 Okt 2013 18:07:16 CEST
+update=03/10/2013 13:30:56
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,28 +21,16 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
+LibName1=Connector
+LibName2=IC
+LibName3=Mechanical
+LibName4=Passive
+LibDir=KiCad-Lib-bac6cbfe0d3a/KiCad-Lib-bac6cbfe0d3a
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../../KiCad-Lib
+LibDir=KiCad-Lib-bac6cbfe0d3a/KiCad-Lib-bac6cbfe0d3a
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -62,3 +45,8 @@ LibName5=Passive
 LibName6=Power_IC
 LibName7=Power_Sym
 LibName8=power
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
