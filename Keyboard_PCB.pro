@@ -1,8 +1,6 @@
-update=05/10/2013 14:57:22
+update=06/10/2013 17:29:14
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -50,3 +48,5 @@ LibName1=Connector
 LibName2=IC
 LibName3=Mechanical
 LibName4=Passive
+[general]
+version=1

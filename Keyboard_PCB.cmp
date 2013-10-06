@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/10/2013 17:58:26
+
+BeginCmp
+TimeStamp = /524AF5BC;
+Reference = C1;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF5A4;
+Reference = C2;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF79A;
+Reference = C3;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF7F0;
+Reference = C4;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524FF775;
+Reference = C5;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524FFCC2;
+Reference = C6;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524FFCF9;
+Reference = C7;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52500268;
+Reference = C8;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52500491;
+Reference = C9;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF2F8;
+Reference = CON1;
+ValeurCmp = PS/2_JACK;
+IdModule  = PS2_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /52500091;
+Reference = CON2;
+ValeurCmp = USB_JACK;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52500CC1;
+Reference = DISP1;
+ValeurCmp = 16_2_LCD_DISP;
+IdModule  = PinArray_2.54mm_16x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /524FF513;
+Reference = IC1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF962;
+Reference = ISP1;
+ValeurCmp = AVR_ISP_6;
+IdModule  = PinArray_2.54mm_3x2_BOX;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF4B8;
+Reference = R1;
+ValeurCmp = RESISTOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524D51DA;
+Reference = R2;
+ValeurCmp = RESISTOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525004AA;
+Reference = R3;
+ValeurCmp = RESISTOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52500D69;
+Reference = R4;
+ValeurCmp = RESISTOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525027C8;
+Reference = R5;
+ValeurCmp = RESISTOR_VAR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /524D4FEA;
+Reference = S1;
+ValeurCmp = SPEAKER;
+IdModule  = SCREW_TERM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /524D729E;
+Reference = U1;
+ValeurCmp = ATMEGA328;
+IdModule  = TQFP-32;
+EndCmp
+
+BeginCmp
+TimeStamp = /524AF543;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC49;
+EndCmp
+
+EndListe
