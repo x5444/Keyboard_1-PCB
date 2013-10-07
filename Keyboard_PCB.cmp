@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 07 Oct 2013 09:51:12 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 07 Oct 2013 11:08:28 PM CEST
 
 BeginCmp
 TimeStamp = /524AF5BC;
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /52531227;
 Reference = R5;
 ValeurCmp = RESISTOR_VAR;
-IdModule  = ;
+IdModule  = TRIMMING_POT_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /525311F0;
 Reference = R6;
 ValeurCmp = RESISTOR_VAR;
-IdModule  = ;
+IdModule  = POT_VERT_6mm_MONO;
 EndCmp
 
 BeginCmp
