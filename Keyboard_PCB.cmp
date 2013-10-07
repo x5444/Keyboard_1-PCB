@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/10/2013 17:58:26
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 07 Oct 2013 09:51:12 PM CEST
 
 BeginCmp
 TimeStamp = /524AF5BC;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /52500CC1;
 Reference = DISP1;
 ValeurCmp = 16_2_LCD_DISP;
-IdModule  = PinArray_2.54mm_16x1;
+IdModule  = LCD_TEXT_16x4;
 EndCmp
 
 BeginCmp
@@ -127,8 +127,15 @@ IdModule  = 0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /525027C8;
+TimeStamp = /52531227;
 Reference = R5;
+ValeurCmp = RESISTOR_VAR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /525311F0;
+Reference = R6;
 ValeurCmp = RESISTOR_VAR;
 IdModule  = ;
 EndCmp
