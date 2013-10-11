@@ -8,13 +8,13 @@ LIBS:Passive
 LIBS:Power_IC
 LIBS:Power_Sym
 LIBS:Keyboard_PCB-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 oct 2013"
+Date "11 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -574,8 +574,6 @@ Wire Wire Line
 	3150 1300 3150 1500
 Wire Wire Line
 	3050 1650 3950 1650
-Wire Wire Line
-	3050 1950 3950 1950
 Connection ~ 3200 1950
 Connection ~ 3200 1650
 Wire Wire Line
@@ -645,8 +643,6 @@ Wire Wire Line
 Connection ~ 3750 1100
 Wire Wire Line
 	3950 1650 3950 1700
-Wire Wire Line
-	3950 1950 3950 1800
 Wire Wire Line
 	3700 3250 3950 3250
 Connection ~ 3700 3350
@@ -789,24 +785,22 @@ Text GLabel 8150 5500 0    60   Input ~ 0
 LCD_D6
 Text GLabel 8150 5600 0    60   Input ~ 0
 LCD_D7
-Text GLabel 7950 2250 2    60   Input ~ 0
+Text GLabel 7950 3150 2    60   Input ~ 0
 LCD_D0
-Text GLabel 7950 2150 2    60   Input ~ 0
+Text GLabel 7950 1100 2    60   Input ~ 0
 LCD_D1
-Text GLabel 7950 2050 2    60   Input ~ 0
+Text GLabel 7950 1300 2    60   Input ~ 0
 LCD_D2
-Text GLabel 7950 1950 2    60   Input ~ 0
+Text GLabel 7950 1750 2    60   Input ~ 0
 LCD_D3
 Text GLabel 7950 1850 2    60   Input ~ 0
 LCD_D4
-Text GLabel 7950 1750 2    60   Input ~ 0
+Text GLabel 7950 1950 2    60   Input ~ 0
 LCD_D5
-Text GLabel 7950 1300 2    60   Input ~ 0
+Text GLabel 7950 2050 2    60   Input ~ 0
 LCD_D6
-Text GLabel 7950 1100 2    60   Input ~ 0
+Text GLabel 7950 2150 2    60   Input ~ 0
 LCD_D7
-Wire Wire Line
-	7550 2250 7950 2250
 Wire Wire Line
 	7950 2150 7550 2150
 Wire Wire Line
@@ -849,11 +843,11 @@ Wire Wire Line
 	8350 5900 8150 5900
 Wire Wire Line
 	8150 6000 8350 6000
-Text GLabel 7950 3050 2    60   Input ~ 0
+Text GLabel 7950 2850 2    60   Input ~ 0
 LCD_RS
 Text GLabel 7950 2950 2    60   Input ~ 0
 LCD_RW
-Text GLabel 7950 2850 2    60   Input ~ 0
+Text GLabel 7950 3050 2    60   Input ~ 0
 LCD_E
 Wire Wire Line
 	8400 2650 8400 3550
@@ -907,12 +901,22 @@ Wire Wire Line
 Wire Wire Line
 	7950 3450 7950 3350
 Wire Wire Line
-	7750 3650 7550 3650
-Wire Wire Line
-	7550 3650 7550 3450
+	7550 3150 7950 3150
+$Comp
+L RESISTOR_VAR R5
+U 1 1 5257F7B4
+P 10550 5150
+F 0 "R5" H 10650 5250 60  0000 C CNN
+F 1 "RESISTOR_VAR" V 10550 5150 60  0001 C CNN
+F 2 "" H 10550 4950 60  0000 C CNN
+F 3 "" H 10550 4950 60  0000 C CNN
+F 4 "10k" H 10700 5050 60  0000 C CNN "Resistance"
+	1    10550 5150
+	1    0    0    -1  
+$EndComp
 $Comp
 L RESISTOR_VAR R6
-U 1 1 525311F0
+U 1 1 5257F803
 P 7950 3650
 F 0 "R6" H 8050 3750 60  0000 C CNN
 F 1 "RESISTOR_VAR" V 7950 3650 60  0001 C CNN
@@ -922,16 +926,45 @@ F 4 "10k" H 8100 3550 60  0000 C CNN "Resistance"
 	1    7950 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7750 3650 7650 3650
+Wire Wire Line
+	7650 3650 7650 3450
+Wire Wire Line
+	7650 3450 7550 3450
+Wire Wire Line
+	3950 1800 3700 1800
+Wire Wire Line
+	3700 1800 3700 1950
+Wire Wire Line
+	3700 1950 3050 1950
+Wire Wire Line
+	3950 2000 3850 2000
+Wire Wire Line
+	3850 2000 3850 2100
 $Comp
-L RESISTOR_VAR R5
-U 1 1 52531227
-P 10550 5150
-F 0 "R5" H 10650 5250 60  0000 C CNN
-F 1 "RESISTOR_VAR" V 10550 5150 60  0001 C CNN
-F 2 "" H 10550 4950 60  0000 C CNN
-F 3 "" H 10550 4950 60  0000 C CNN
-F 4 "1k" H 10650 5050 60  0000 C CNN "Resistance"
-	1    10550 5150
+L CAPACITOR C10
+U 1 1 5257FCB5
+P 3850 2250
+F 0 "C10" H 3950 2300 60  0000 C CNN
+F 1 "CAPACITOR" H 3825 2000 60  0001 C CNN
+F 2 "" H 3825 2225 60  0000 C CNN
+F 3 "" H 3850 2250 60  0000 C CNN
+F 4 "100nF" H 4000 2150 60  0000 C CNN "Capacitance"
+	1    3850 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR026
+U 1 1 5257FCCE
+P 3850 2500
+F 0 "#PWR026" H 3850 2500 30  0001 C CNN
+F 1 "GND" H 3850 2430 30  0001 C CNN
+F 2 "" H 3850 2500 60  0000 C CNN
+F 3 "" H 3850 2500 60  0000 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2500 3850 2400
 $EndSCHEMATC

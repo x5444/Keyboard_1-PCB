@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 07 Oct 2013 11:08:28 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/10/2013 15:01:28
 
 BeginCmp
 TimeStamp = /524AF5BC;
@@ -59,6 +59,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52500491;
 Reference = C9;
+ValeurCmp = CAPACITOR;
+IdModule  = 0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5257FCB5;
+Reference = C10;
 ValeurCmp = CAPACITOR;
 IdModule  = 0805;
 EndCmp
@@ -127,14 +134,14 @@ IdModule  = 0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52531227;
+TimeStamp = /5257F7B4;
 Reference = R5;
 ValeurCmp = RESISTOR_VAR;
 IdModule  = TRIMMING_POT_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /525311F0;
+TimeStamp = /5257F803;
 Reference = R6;
 ValeurCmp = RESISTOR_VAR;
 IdModule  = POT_VERT_6mm_MONO;

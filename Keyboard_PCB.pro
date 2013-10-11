@@ -1,11 +1,6 @@
-update=Mon 07 Oct 2013 09:48:12 PM CEST
+update=11/10/2013 13:23:34
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -28,15 +23,15 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=../../PCBLibs
 LibName1=Connector
 LibName2=IC
 LibName3=Mechanical
-LibName4=Passive
-LibName5=Module
+LibName4=Module
+LibName5=Passive
+LibDir=../KiCad-Lib
 [eeschema]
 version=1
-LibDir=../../PCBLibs
+LibDir=../KiCad-Lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -51,3 +46,8 @@ LibName5=MISC_IC
 LibName6=Passive
 LibName7=Power_IC
 LibName8=Power_Sym
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
