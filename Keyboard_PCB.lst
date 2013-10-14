@@ -1,0 +1,29 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/10/2013 12:59:28
+#Cmp ( order = Reference )
+| C1         CAPACITOR   ; 22pF		; NPO-G0805 8,2P		; 0,05   
+| C2         CAPACITOR   ; 22pF        
+| C3         CAPACITOR   ; 100nF	; X7R-G0805 100N		; 0,05     
+| C4         CAPACITOR   ; 100nF       
+| C5         CAPACITOR   ; 100nF       
+| C6         CAPACITOR   ; 100nF       
+| C7         CAPACITOR   ; 4.7uF    ; X5R-G0805 4,7			; 0,05  
+| C8         CAPACITOR   ; 10nF		; X7R-G0805 10N			; 0,05    
+| C9         CAPACITOR   ; 4.7nF       
+| C10        CAPACITOR   ; 100nF       
+| CON1       PS/2_JACK   ;			; EB-DIOS M06V          ; 0,68   
+| CON2       USB_JACK    ;			; USB BW				; 0,22             
+| DISP1      16_2_LCD_DISP;             
+| IC1        FT232RL     ;			; FT 232 RL 			; 3,10            
+| ISP1       AVR_ISP_6   ;			; WSL 6G   				; 0,17
+| R1         RESISTOR    ; 4k7      ; SMD-0805 4,70K		; 0,103   
+| R2         RESISTOR    ; 470      ; SMD-0805 470			; 0,103   
+| R3         RESISTOR    ; 1M       ; SMD-0805 1,00M		; 0,103  
+| R4         RESISTOR    ; 10       ; SMD-0805 10,0  		; 0,103
+| R5         RESISTOR_VAR; 10k		; TS53YJ103				; 0,86
+| R6         RESISTOR_VAR; 10k      ; RK09K113-LIN10K 		; 0,90
+| S1         SPEAKER     ;             
+| U1         ATMEGA328   ;			; ATMEGA 168-20 TQ      ; 2,35       
+| X1         CRYSTAL     ; 16MHz	; 16,0000-HC49U-S		; 0,16  
+#End Cmp
+
+#End List
